@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react-swc'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server:{port:1243}
+  server:{port:1243},
+  base: '/frontend_prac2/'
 })
