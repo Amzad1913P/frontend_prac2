@@ -5,6 +5,7 @@ class App extends Component {
     return (
       <div>
         <h1>hellow amzad</h1>
+        <h1>this is new change</h1>
       </div>
     );
   }
